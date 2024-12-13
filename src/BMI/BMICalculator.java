@@ -26,10 +26,8 @@ public BMICalculator(double weight, double height){
         result = "Healthy weight\n";
         else if(BMI >= 25.0 && BMI <= 29.9)
             result = "Overweight\n";
-        else if(BMI >= 30.0)
-            result = "Obesity\n";
         else
-            result = "Invalid result\n";
+            result = "Obesity\n";
 
         return msg + result;
 
